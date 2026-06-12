@@ -1,0 +1,6 @@
+project_id = "dfbyfjfrolrrvznqiliv"
+
+# The order webhook authenticates via its own endpoint token —
+# Shopify/WooCommerce cannot send Supabase JWTs.
+[functions.order-webhook]
+verify_jwt = false
