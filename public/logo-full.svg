@@ -1,0 +1,26 @@
+<svg width="75" height="13" viewBox="0 0 75 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="logoFullWordGradient" x1="13" y1="0" x2="75" y2="13" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7C3AED" />
+      <stop offset="0.52" stop-color="#4F46E5" />
+      <stop offset="1" stop-color="#06B6D4" />
+    </linearGradient>
+    <linearGradient id="logoFullMarkGradient" x1="0" y1="0" x2="13" y2="13" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7C3AED" />
+      <stop offset="1" stop-color="#4F46E5" />
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="13" height="13" rx="3" fill="url(#logoFullMarkGradient)" />
+  <path d="M4 3.5H6.7C8.9 3.5 10.5 5.1 10.5 7.3C10.5 9.5 8.9 11.1 6.7 11.1H4V3.5ZM5.8 5.3V9.3H6.7C7.9 9.3 8.7 8.5 8.7 7.3C8.7 6.1 7.9 5.3 6.7 5.3H5.8Z" fill="white" />
+  <text
+    x="16"
+    y="9.7"
+    fill="url(#logoFullWordGradient)"
+    font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif"
+    font-size="10.5"
+    font-weight="800"
+    letter-spacing="-0.3"
+  >
+    Dynamico
+  </text>
+</svg>

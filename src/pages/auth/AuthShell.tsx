@@ -1,5 +1,5 @@
 import type { ReactNode } from 'react';
-import { BarChart3, Bell, Boxes, Warehouse } from 'lucide-react';
+import { BarChart3, Bell, Warehouse } from 'lucide-react';
 
 const FEATURES = [
   { icon: Warehouse, text: 'Track stock across unlimited warehouses' },
@@ -20,10 +20,7 @@ export function AuthShell({ title, subtitle, children }: AuthShellProps) {
       <div className="flex w-full flex-col justify-center px-6 py-12 lg:w-[480px] lg:shrink-0 lg:px-16">
         <div className="mx-auto w-full max-w-sm">
           <div className="flex items-center gap-2.5">
-            <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-brand-600">
-              <Boxes className="h-5 w-5 text-white" />
-            </div>
-            <span className="text-lg font-bold tracking-tight text-gray-900">Dynamico</span>
+            <img src="/logo-full.svg" alt="Dynamico logo" className="h-[13px] w-auto" />
           </div>
           <h1 className="mt-8 text-2xl font-semibold tracking-tight text-gray-900">{title}</h1>
           <p className="mt-1.5 text-sm text-gray-500">{subtitle}</p>

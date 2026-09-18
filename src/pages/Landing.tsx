@@ -3,7 +3,6 @@ import {
   ArrowRight,
   BarChart3,
   Bell,
-  Boxes,
   CheckCircle2,
   ClipboardList,
   Database,
@@ -171,10 +170,7 @@ export function Landing() {
       <header className="sticky top-0 z-40 border-b border-white/10 bg-gray-950/80 backdrop-blur">
         <nav className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 sm:px-6">
           <a href="#top" className="flex items-center gap-2.5">
-            <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-brand-600">
-              <Boxes className="h-4.5 w-4.5 text-white" />
-            </div>
-            <span className="text-[17px] font-bold tracking-tight">Dynamico</span>
+            <img src="/logo-full.svg" alt="Dynamico logo" className="h-[13px] w-auto" />
           </a>
           <div className="hidden items-center gap-7 text-[13px] font-medium text-white/60 md:flex">
             <a href="#fonctionnalites" className="transition-colors hover:text-white">Fonctionnalités</a>
@@ -436,10 +432,7 @@ export function Landing() {
       <footer className="border-t border-white/10 py-10">
         <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 px-4 sm:flex-row sm:px-6">
           <div className="flex items-center gap-2.5">
-            <div className="flex h-7 w-7 items-center justify-center rounded-lg bg-brand-600">
-              <Boxes className="h-4 w-4 text-white" />
-            </div>
-            <span className="text-sm font-bold">Dynamico</span>
+            <img src="/logo-text.svg" alt="Dynamico logo" className="h-[13px] w-auto" />
           </div>
           <p className="text-center text-xs text-white/40">
             © 2026 Dynamico — Projet de Fin d’Études par Nidaa Cherqui · Mega Campus

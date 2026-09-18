@@ -1,0 +1,20 @@
+<svg width="62" height="13" viewBox="0 0 62 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="logoTextGradient" x1="0" y1="0" x2="62" y2="13" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7C3AED" />
+      <stop offset="0.52" stop-color="#4F46E5" />
+      <stop offset="1" stop-color="#06B6D4" />
+    </linearGradient>
+  </defs>
+  <text
+    x="0"
+    y="9.7"
+    fill="url(#logoTextGradient)"
+    font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif"
+    font-size="10.5"
+    font-weight="800"
+    letter-spacing="-0.3"
+  >
+    Dynamico
+  </text>
+</svg>

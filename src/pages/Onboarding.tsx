@@ -3,7 +3,6 @@ import { useNavigate, useSearchParams } from 'react-router-dom';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
-import { Boxes } from 'lucide-react';
 import { useWorkspace } from '@/contexts/WorkspaceContext';
 import { useToast } from '@/contexts/ToastContext';
 import { useCreateWorkspace } from '@/hooks/useWorkspaceMutations';
@@ -66,10 +65,7 @@ export function Onboarding() {
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-gray-50 px-4 py-12">
       <div className="flex items-center gap-2.5">
-        <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-brand-600">
-          <Boxes className="h-5 w-5 text-white" />
-        </div>
-        <span className="text-lg font-bold tracking-tight text-gray-900">Dynamico</span>
+        <img src="/logo-full.svg" alt="Dynamico logo" className="h-[13px] w-auto" />
       </div>
 
       <Card className="mt-8 w-full max-w-md p-8">

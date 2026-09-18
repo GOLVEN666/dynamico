@@ -3,7 +3,6 @@ import {
   ArrowLeftRight,
   BarChart3,
   Bell,
-  Boxes,
   Check,
   ChevronsUpDown,
   ClipboardList,
@@ -105,10 +104,7 @@ export function Sidebar({ open, onClose }: SidebarProps) {
         {/* brand + close (mobile) */}
         <div className="flex h-14 shrink-0 items-center justify-between border-b border-gray-100 px-4">
           <div className="flex items-center gap-2.5">
-            <div className="flex h-7 w-7 items-center justify-center rounded-lg bg-brand-600">
-              <Boxes className="h-4 w-4 text-white" />
-            </div>
-            <span className="text-[15px] font-bold tracking-tight text-gray-900">Dynamico</span>
+            <img src="/logo-text.svg" alt="Dynamico logo" className="h-[13px] w-auto" />
           </div>
           <button
             type="button"
